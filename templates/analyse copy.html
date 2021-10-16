@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysing your text</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(bg.jpg);
+            background-position: center;
+            background-size: cover;
+            /* font-family: sans-serif; */
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Your Analysed Text - {{ purpose }}</h1><br>
+    <p class="para">
+        <pre>{{ analysed_text }}</pre>
+    </p>
+</body>
+</html>
